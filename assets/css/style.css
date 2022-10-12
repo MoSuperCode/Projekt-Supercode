@@ -1,0 +1,182 @@
+@font-face {
+    font-family: MavenPro;
+    src: url("../fonts/Maven_Pro/static/MavenPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: Gilda Display;
+    src: url("../fonts/Gilda_Display/GildaDisplay-Regular.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.oben {
+    text-align: right;
+    position: fixed;
+    bottom: 50px;
+    Right: 50px
+}
+
+.oben a {
+    border: 3px solid #333;
+    padding: 14px 22px 6px 22px;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    background-image: linear-gradient(to top right, #8507e1, #3dc8d5);
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+}
+
+.oben a:hover {
+    background-image: linear-gradient(to top right, #3dc8d5, #8507e1);
+}
+
+header {
+    background-color: #333;
+    height: 100vh;
+    padding: 5px 30px;
+}
+
+.maven {
+    font-family: MavenPro;
+}
+
+.gilda {
+    font-family: Gilda Display;
+}
+
+header .maven {
+    color: white;
+    width: 1rem;
+}
+
+header article {
+    width: 15rem;
+    height: 13rem;
+    background-image: linear-gradient(to top right, #8507e1, #3dc8d5);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 30vh auto 0px auto;
+}
+
+header article:hover {
+    background-image: linear-gradient(to top right, #3dc8d5, #8507e1);
+}
+
+header article h1 {
+    font-size: 3.7rem;
+    margin-bottom: 10px;
+}
+
+header article p {
+    font-size: 1rem;
+}
+
+header nav {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 25vh;
+}
+
+header nav ul li {
+    text-align: right;
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-family: MavenPro;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: #ccc;
+}
+
+main {
+    background: url("../img/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left: 20vw;
+    margin-right: 20vw
+}
+
+main .swd {
+    padding: 100px 0px 0px 0px;
+}
+
+main .swd h2 {
+    font-size: 3em;
+}
+
+main .swd p {
+    margin-right: 20vw;
+    margin-top: 20px;
+    display: inlline-block;
+    font-family: MavenPro;
+}
+
+.wwd {
+    padding: 0px 6vw;
+    margin-bottom: 100px;
+}
+
+.pic {
+    margin-top: 15vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.h2bp {
+    margin-top: 20px;
+    font-size: 3rem;
+
+}
+
+.pbp {
+    margin-top: 20px;
+    font-family: MavenPro;
+}
+
+footer {
+    background: #333;
+    height: 10vh;
+}
+
+footer ul {
+    text-align: center;
+
+}
+
+footer ul li {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 4vh;
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: MavenPro;
+    font-size: 1.2em;
+}
+
+footer ul li a:hover {
+    color: #ccc;
+
+}
